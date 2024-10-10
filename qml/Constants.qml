@@ -48,6 +48,10 @@ QtObject {
     property int rotation5Default : 0
     property int rotationClampDefault : 0
 
+    /* for light tuning */
+    property int lightRotationX : -40
+    property int lightRotationY : 60
+
     /* Ponderate pixel size for other resolution (base is 1024 width) */
     function getPixelSize(basePixelSize) {
         var factor = screenWidth/minScreenWidth

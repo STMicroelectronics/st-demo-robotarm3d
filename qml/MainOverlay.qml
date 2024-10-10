@@ -33,6 +33,10 @@ Item {
     property string gpuPercentText: (systemInfo.gpuPercent != -1) ? " / " + systemInfo.gpuPercent + "%" : ""
     property string gpuText: (systemInfo.gpuPercent != -1) ? " / GPU" : ""
 
+    /* light tuning */
+    property alias lightRotationX: sliderLightRotX.value
+    property alias lightRotationY: sliderLightRotY.value
+
     Component.onCompleted: {
         if (constants.verboseMode) console.debug("MainOverlay instanciated")
         fullAnimationButton.checked = true
@@ -135,6 +139,32 @@ Item {
                     if (constants.menuActivated) menuVisible = false
                 }
             }
+        }
+    }
+
+    /* for light tuning */
+    ColumnLayout {
+        id: lightLayout
+        anchors { top: parent.top; left: parent.left }
+        anchors.topMargin: constants.getPixelSize(100)
+        visible: false
+        CustomSlider {
+            id: sliderLightRotX
+            Layout.alignment: Qt.AlignLeft
+            Layout.leftMargin: constants.getPixelSize(10)
+            sliderText: qsTr("Light Euler rot X")
+            value: constants.lightRotationX
+            from: -180
+            to: 180
+        }
+        CustomSlider {
+            id: sliderLightRotY
+            Layout.alignment: Qt.AlignLeft
+            Layout.leftMargin: constants.getPixelSize(10)
+            sliderText: qsTr("Light Euler rot Y")
+            value: constants.lightRotationY
+            from: -180
+            to: 180
         }
     }
 

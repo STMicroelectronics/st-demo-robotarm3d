@@ -14,7 +14,7 @@ import QtQuick 2.15
 import QtQuick.Window 2.15
 import QtQuick.Timeline 1.0
 import QtQuick.Controls 2.15
-import QtQuick3D 1.15
+import QtQuick3D
 import SystemInfo 1.0
 
 Item {
@@ -155,7 +155,7 @@ Item {
                 id: camera
                 position: Qt.vector3d(0, 100, 500)
                 eulerRotation.y : 0
-                fieldOfViewOrientation: Camera.Horizontal
+                fieldOfViewOrientation: PerspectiveCamera.Horizontal
                 /* zoomRange between min and 100 - 0.7 in line with bg perspective */
                 fieldOfView: 0.7 * zoomRange()
             }
@@ -177,13 +177,12 @@ Item {
                 ambientColor: Qt.rgba(0.1, 0.1, 0.1, 1.0)
                 position: Qt.vector3d(0, 200, 0)
                 color: "#ababce"
-                eulerRotation.x: -45
-                eulerRotation.y: 45
+                eulerRotation: Qt.vector3d(mainOverlay.lightRotationX, mainOverlay.lightRotationY, 0)
                 shadowMapQuality: Light.ShadowMapQualityHigh
                 castsShadow: shadowEnabled
-                shadowFactor: 100
-                brightness: 170
-                shadowMapFar: 2000
+                shadowFactor: 10
+                brightness: 6
+                shadowMapFar: 200
             }
 
             RobotarmEnhanced {

@@ -9,25 +9,7 @@
         <file>assets/3d_menu_normal.png</file>
         <file>assets/Font/SairaCondensed-Medium.ttf</file>
         <file>assets/meshes/cube.mesh</file>
-        <file>assets/meshes/cube_006.mesh</file>
-        <file>assets/meshes/cube_008.mesh</file>
-        <file>assets/meshes/cube_021.mesh</file>
-        <file>assets/meshes/cube_022.mesh</file>
-        <file>assets/meshes/cube_023.mesh</file>
-        <file>assets/meshes/cylinder_023.mesh</file>
-        <file>assets/meshes/cylinder_035.mesh</file>
-        <file>assets/meshes/cylinder_039.mesh</file>
-        <file>assets/meshes/cylinder_040.mesh</file>
         <file>assets/meshes/grab.mesh</file>
-        <file>assets/maps/0.png</file>
-        <file>assets/maps/1.png</file>
-        <file>assets/maps/2.png</file>
-        <file>assets/maps/3.png</file>
-        <file>assets/maps/4.png</file>
-        <file>assets/maps/5.png</file>
-        <file>assets/maps/6.png</file>
-        <file>assets/maps/7.png</file>
-        <file>assets/maps/8.png</file>
         <file>assets/menu_bg.png</file>
         <file>qml/CustomButton.qml</file>
         <file>qml/CustomSlider.qml</file>
@@ -38,5 +20,36 @@
         <file>assets/images/shot-panoramic-composition-empty-interior_1920.png</file>
         <file>assets/images/shot-panoramic-composition-empty-interior_1024.png</file>
         <file>qml/LoadingView.qml</file>
+        <file>assets/maps/textureData.jpg</file>
+        <file>assets/maps/textureData6.png</file>
+        <file>assets/maps/textureData8.png</file>
+        <file>assets/maps/textureData10.png</file>
+        <file>assets/maps/textureData13.png</file>
+        <file>assets/maps/textureData15.png</file>
+        <file>assets/maps/textureData17.png</file>
+        <file>assets/maps/textureData24.png</file>
+        <file>assets/maps/textureData26.png</file>
+        <file>assets/meshes/cube_011_mesh.mesh</file>
+        <file>assets/meshes/cube_012_mesh.mesh</file>
+        <file>assets/meshes/cube_013_mesh.mesh</file>
+        <file>assets/meshes/cube_014_mesh.mesh</file>
+        <file>assets/meshes/cube_023_mesh.mesh</file>
+        <file>assets/meshes/cube_mesh.mesh</file>
+        <file>assets/meshes/cylinder_011_mesh.mesh</file>
+        <file>assets/meshes/cylinder_028_mesh.mesh</file>
+        <file>assets/meshes/cylinder_030_mesh.mesh</file>
+        <file>assets/meshes/cylinder_009_mesh.mesh</file>
+        <file>assets/animations/cube_position_0.qad</file>
+        <file>assets/animations/cube_rotation_0.qad</file>
+        <file>assets/animations/empty_043_rotation_0.qad</file>
+        <file>assets/animations/empty_044_rotation_0.qad</file>
+        <file>assets/animations/empty_046_rotation_0.qad</file>
+        <file>assets/animations/empty_048_position_0.qad</file>
+        <file>assets/animations/empty_048_rotation_0.qad</file>
+        <file>assets/animations/empty_049_rotation_0.qad</file>
+        <file>assets/animations/empty_050_rotation_0.qad</file>
+        <file>assets/animations/empty_051_rotation_0.qad</file>
+        <file>assets/meshes/cylinder_023_mesh.mesh</file>
+        <file>assets/maps/textureData10_RG.png</file>
     </qresource>
 </RCC>

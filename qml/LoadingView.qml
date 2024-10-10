@@ -14,7 +14,7 @@ import QtQuick 2.15
 import QtQuick.Window 2.15
 import QtQuick.Timeline 1.0
 import QtQuick.Controls 2.15
-import QtQuick3D 1.15
+import QtQuick3D
 import SystemInfo 1.0
 
 Window {
