@@ -135,7 +135,7 @@ Item {
     View3D {
         id: view
         anchors.fill: parent
-        renderMode: View3D.Inline // mandatory to get View3D update after Quick 2D settings
+        renderMode: View3D.Offscreen
         environment: sceneEnvironment
 
         SceneEnvironment {
